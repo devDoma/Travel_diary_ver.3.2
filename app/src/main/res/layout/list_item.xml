@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:orientation="horizontal"
+    android:background="@android:drawable/editbox_background"
+    android:backgroundTint="?attr/colorControlHighlight">
+
+    <ImageView
+        android:id="@+id/imageView_list_item"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/no"
+        android:scaleType="centerInside" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_list_title"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:text="TextView" />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/textView_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="TextView"
+            android:maxLength="20"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/no"
+            android:id="@+id/imageButton_delete"
+            android:scaleType="centerInside"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/write"
+            android:id="@+id/imageButton_modify"
+            android:scaleType="centerInside"
+             />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/settings"
+            android:id="@+id/imageButton_setDes"
+            android:scaleType="centerInside" />
+
+    </LinearLayout>
+
+</LinearLayout>

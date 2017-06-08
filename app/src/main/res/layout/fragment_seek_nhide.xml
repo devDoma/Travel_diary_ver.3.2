@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.doma.travel_diary.SeekNHide">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <CalendarView
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+
+        android:minDate="01/01/2015"
+        android:maxDate="12/31/2019"
+        android:showWeekNumber="false"
+        android:focusedMonthDateColor="@color/black_overlay"
+        android:selectedWeekBackgroundColor="@color/colorPrimaryDark"
+        android:weekSeparatorLineColor="@color/colorAccent"
+        android:unfocusedMonthDateColor="#000000"
+        android:id="@+id/calendarView2" />
+</FrameLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded"
+    android:backgroundTint="@color/colorPrimaryDark"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical"
+    >
+
+    <ImageButton
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/plus_round"
+        android:id="@+id/imageButton_plus_dialog_d"
+        android:scaleType="centerInside"
+        android:background="@android:color/transparent"
+        android:tint="@android:color/background_light" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview_custiomDialog"
+        android:layout_above="@+id/imageButton_plus_dialog_d" />
+
+    <EditText
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/editText_dest"
+        android:hint="여행지를 추가해보세요!"
+        android:textColorHint="@color/colorPrimary"/>
+
+
+</RelativeLayout>

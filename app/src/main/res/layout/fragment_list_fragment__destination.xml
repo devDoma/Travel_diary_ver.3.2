@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.doma.travel_diary.ListFragment_Destination">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/ListView_Fragment" />
+</FrameLayout>
